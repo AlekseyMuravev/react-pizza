@@ -1,5 +1,5 @@
 {
-    "port": 5000,
-    "jwtSecret": "muravev",
-    "mongoUri": "mongodb+srv://Chac:Nika2507@cluster0.rhooz.mongodb.net/pizzasShop?retryWrites=true&w=majority"
+    "port": ,
+    "jwtSecret": "",
+    "mongoUri": ""
 }
