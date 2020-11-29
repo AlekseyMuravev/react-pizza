@@ -1,0 +1,87 @@
+@import 'variables';
+
+.header {
+    border-bottom: 1px solid $gray-line;
+    padding: 40px 0;
+
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    &__logo {
+    display: flex;
+
+        img {
+                    margin-right: 15px;
+        }
+
+        h1 {
+                color: #181818;
+                font-size: 24px;
+                letter-spacing: 1%;
+                text-transform: uppercase;
+                font-weight: 800;
+        }
+
+        p {
+            color: #7b7b7b;
+        }
+    }
+}
+
+.auth_and_cart_block {
+    display: flex;    
+}
+
+.auth_block {
+    display: flex;
+    border-radius: 50px;
+    background: #fe5f1e;
+    margin-left: 10px;
+}
+
+.auth_block .button-intel {
+    font-size: 16px;
+    padding: 15px 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 1px solid #db2525;
+}
+
+.auth_block .button-registr {
+    font-size: 16px;
+    padding: 15px 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.auth_block .button-logout {
+    font-size: 16px;
+    padding: 15px 25px;
+}
+
+.popap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.popap label {
+    font-size: 16px;
+}
+
+.popap input {
+    font-size: 16px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 20px 0;
+}
